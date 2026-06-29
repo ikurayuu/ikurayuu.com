@@ -5,7 +5,7 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.12 });
 
-document.querySelectorAll(".section, .card, .intro, .note, .page-hero, .split").forEach((el) => {
+document.querySelectorAll(".section, .card, .intro, .note, .page-hero, .split, .timeline-item").forEach((el) => {
   el.classList.add("fade-in");
   observer.observe(el);
 });
