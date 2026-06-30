@@ -9,3 +9,11 @@ document.querySelectorAll(".section, .card, .intro, .note, .page-hero, .split, .
   el.classList.add("fade-in");
   observer.observe(el);
 });
+
+const menuButton = document.querySelector(".menu-button");
+if (menuButton) {
+  menuButton.addEventListener("click", () => {
+    const isOpen = document.body.classList.toggle("menu-open");
+    menuButton.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  });
+}
