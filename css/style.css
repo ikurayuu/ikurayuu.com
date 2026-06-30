@@ -30,3 +30,6 @@
 .program-card h3{margin:0 0 14px;color:var(--green);font-size:24px;line-height:1.45}
 .program-card p{margin:0;color:var(--muted)}
 @media(max-width:880px){.program-grid{grid-template-columns:1fr}}
+
+.sauna-hero .page-title{color:var(--green)}
+.sauna-note{background:linear-gradient(135deg,var(--green),#2e6a53)}
